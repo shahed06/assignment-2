@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------Top Banner------ */
+.top-banner{
+    display: flex;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+}
+.banner-left{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.banner-left h1{
+    width: 270px;
+}
+.banner-left p{
+    padding-top: 50px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.banner-left a{
+    background-color: #E02C6D;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+.banner-left a i{
+    padding-left: 5px;
+}
+.banner-right{
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+/* --------- Popular Collection ------- */
+.camera-collection{
+    padding-bottom: 70px;
+}
+.Popular-Collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
+}
+.camera-collection{
+    margin-top: 200px;
+    text-align: center;
+}
+.camera-detail{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px gray;
+    width: 350px;
+    border-radius: 10px;
+    grid-template-columns: 3, 1fr;
+    margin-bottom: 50px;
+    margin-left: 155px;
+}
+.camera-detail ul{
+    display: flex;
+}
+.camera-detail h1{
+    padding-bottom: 10px;
+}
+.camera-detail img{
+    padding-bottom: 10px;
+}
+.camera-detail ul p{
+    color: #FB8200;
+    padding-top: 10px;
+}
+.camera-detail p{
+    width: 10%;
+}
+.camera-detail ul .rating{
+    color: #5E6366;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.camera-detail .artical{
+    width: 63%;
+}
+
+/*------------- see more button ------------- */
+
+.see-more{
+    text-align: left;
+    color: #E02C6D;
+    padding-top: 20px;
+    padding-left: 85%;
+}
+
+/*-------------- footer ------------ */
+
+.footer-bar{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+}
+.footer-text{
+    margin-bottom: 10px;
+}
